@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.weapon.online_xdclass.mapper.UserMapper">
+
+    <!-- 注册操作  insert 插入操作 parameter是参数的意思啊   -->
+    <insert id="save" parameterType="User">
+        INSERT INTO user(name,pwd,head_img,phone,create_time)
+        values (#{name,jdbcType=VARCHAR},#{pwd,jdbcType=VARCHAR},
+        #{headImg,jdbcType=VARCHAR},#{phone,jdbcType=VARCHAR},#{createTime,jdbcType=TIMESTAMP} )
+    </insert>
+
+
+    <!-- 通过手机号查找用户 ，也可以在建表的时候在手机那里  建立唯一索引 UNIQUE KEY ('id') -->
+    <select id="findByPhone" resultType="User">
+        select * from user where phone = #{phone}
+
+    </select>
+
+
+    <!-- 根据手机号和密码找用户 -->
+    <select id="findByPhoneAndPwd" resultType="User">
+
+        select * from user where phone = #{phone} and pwd = #{pwd}
+
+    </select>
+
+    <select id="findUserInfoByToken" resultType="User">
+
+        select * from user where id = #{user_id}
+
+    </select>
+</mapper>

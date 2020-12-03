@@ -1,0 +1,47 @@
+2020-10-10 18:44:57.907 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication on tanweipengdeMBP with PID 25638 (/Users/tanweipeng/Desktop/wechatPay/xdvideo/target/classes started by tanweipeng in /Users/tanweipeng/Desktop/wechatPay/xdvideo)
+2020-10-10 18:44:57.912 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-10-10 18:44:58.031 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-10 18:44:58.031 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-10 18:44:59.592 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-10 18:44:59.602 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-10 18:44:59.699 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2020-10-10 18:45:00.503 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-10-10 18:45:00.513 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-10 18:45:00.514 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-10 18:45:00.514 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-10 18:45:00.598 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-10 18:45:00.598 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2566 ms
+2020-10-10 18:45:01.252 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-10 18:45:03.125 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-10-10 18:45:03.173 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-10-10 18:45:03.227 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-10 18:45:03.249 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 6.338 seconds (JVM running for 8.104)
+2020-10-10 19:00:04.073 INFO [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-10 19:00:04.074 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-10 19:00:04.105 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 30 ms
+2020-10-10 19:00:04.413 INFO [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2020-10-10 19:00:05.632 INFO [http-nio-8080-exec-2]dataLogger.save:53 -module=video_order`api=save`user_id=1`video_id=2
+2020-10-10 19:11:08.915 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-10 19:11:08.919 INFO [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2020-10-10 20:38:24.281 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication on tanweipengdeMBP with PID 26090 (/Users/tanweipeng/Desktop/wechatPay/xdvideo/target/classes started by tanweipeng in /Users/tanweipeng/Desktop/wechatPay/xdvideo)
+2020-10-10 20:38:24.287 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-10-10 20:38:24.444 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-10 20:38:24.445 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-10 20:38:25.901 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-10 20:38:25.904 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-10 20:38:25.961 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-10-10 20:38:27.051 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2020-10-10 20:38:27.061 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-10 20:38:27.062 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-10 20:38:27.062 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-10 20:38:27.242 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-10 20:38:27.246 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2801 ms
+2020-10-10 20:38:27.922 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-10 20:38:28.763 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2020-10-10 20:38:28.789 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-10 20:38:28.819 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-10 20:38:28.831 INFO [restartedMain]com.weapon.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 5.162 seconds (JVM running for 6.666)
+2020-10-10 20:39:56.443 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-10 20:39:56.444 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-10 20:39:56.455 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 11 ms
+2020-10-10 20:39:56.661 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
