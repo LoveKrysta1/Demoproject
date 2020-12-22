@@ -2,6 +2,7 @@ package com.weapon.online_xdclass.controller;
 
 import com.weapon.online_xdclass.model.entity.Video;
 import com.weapon.online_xdclass.model.entity.VideoBanner;
+import com.weapon.online_xdclass.service.BloomFilterService;
 import com.weapon.online_xdclass.service.VideoService;
 import com.weapon.online_xdclass.utils.JsonData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class VideoController {
 
     @Autowired
     private VideoService videoService;
+
+    @Autowired
+    private BloomFilterService bloomFilterService;
 
     /**
      * 轮播图列表
@@ -52,11 +56,13 @@ public class VideoController {
      */
     @GetMapping("find_detail_by_id")
     public JsonData findDetailById(@RequestParam(value = "video_id",required = true)int videoId){
+        if(bloomFilterService.videoIdExists(videoId)){
+            //需要使用mybatis关联复杂查询
+            Video video = videoService.findDetailById(videoId);
 
-        //需要使用mybatis关联复杂查询
-        Video video = videoService.findDetailById(videoId);
-
-        return JsonData.buildSuccess(video);
+            return JsonData.buildSuccess(video);
+        }
+       return JsonData.buildError(-1,"fuck");
 
     }
 }
